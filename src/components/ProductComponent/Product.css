@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css?family=Muli");
+
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*product info */
+
+h1 {
+  color: #ff6d39;
+  font-family: "muli";
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 21px;
+  display: inline-block;
+}
+
+i.fa.fa-search {
+  margin-left: 90px;
+}
+
+.product-name i {
+  color: #ffffff;
+  transition: 0.3s all ease;
+  margin: 0px 12px;
+}
+
+.product-name i:hover {
+  color: #ff6d39;
+  cursor: pointer;
+}
+
+h3 {
+  color: #ffffff;
+  font-family: "muli";
+  margin-top: 84px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: "muli";
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: 29px;
+}
+
+h4 {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "muli";
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h4.dis {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "muli";
+  font-weight: 400;
+  font-size: 17px;
+  margin-left: 30px;
+  text-decoration: line-through #ea3201;
+}
+
+h4.dis span {
+  text-decoration: line-through #ea3201;
+}
+
+.discount {
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+ul li {
+  color: #ffffff;
+  font-family: "muli";
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.bg {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  margin-right: 20px;
+  transition: 0.3s all ease;
+  border-radius: 50%;
+}
+
+.bg:hover {
+  background-color: #ff6d39;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.yellow {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: #fec60f;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.red {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: red;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.purple {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: purple;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.pink {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: pink;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.green {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: green;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.blue {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: blue;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.brown {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: brown;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.white {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.black {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: #000000;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.orange {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: orange;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.gray {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: gray;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.springgreen {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: springgreen;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.yellow:hover,
+.red:hover,
+.purple:hover,
+.pink:hover,
+.green:hover,
+.blue:hover,
+.brown:hover,
+.white:hover,
+.black:hover,
+.orange:hover .gray:hover,
+.springgreen:hover {
+  border: 2px solid #f76b39;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  cursor: pointer !important;
+}
+
+.product-image {
+  max-height: 400px;
+  max-width: 400px;
+  margin-left: 50px;
+}
+
+/*main card*/
+
+/* Product.css */
+
+.card {
+  display: flex;
+  align-items: center;
+  background: #252831
+    url(https://www.dropbox.com/s/fuadz3vmw2nsylm/bg.png?raw=1) no-repeat;
+  height: 600px;
+  width: 48%;
+  width: 800px;
+  margin: auto;
+  box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.4);
+  margin-top: 2%;
+  position: relative; /* Add relative positioning for the overlay */
+}
+
+@media only screen and (max-width: 850px) {
+  .card {
+    background: none;
+    box-shadow: none;
+    max-height: 500px;
+    width: 100%;
+    margin-left: -100px;
+    transform: scale(0.6);
+    flex-direction: column;
+    align-items: normal;
+  }
+
+  .expired-overlay {
+    visibility: hidden;
+  }
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  content: "";
+  height: 395px;
+  width: 330px;
+  display: flex;
+  align-items: center;
+  background-color: #ff6d39;
+  margin-left: 93px;
+  border-radius: 0% 50% 50% 0%;
+  position: absolute;
+  z-index: 5;
+}
+
+.left img {
+  margin-left: -88px;
+  margin-top: 60px;
+}
+
+.right {
+  content: "";
+  height: 395px;
+  width: 550px;
+  background-color: #2a2f40;
+  z-index: 3;
+  margin-left: 200px;
+}
+
+.product-info {
+  position: absolute;
+  margin-left: 245px;
+  height: 394px;
+  width: 305px;
+  z-index: 10;
+}
+
+/* Overlay styles */
+.expired-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5452ed69e4b08fffb6155fc7/1548172115502-B0AQBS0NOUE6Q4ACPXDJ/Expired+pn.png);
+  background-size: 80%;
+  background-color: rgba(255, 7, 7, 0.2);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
