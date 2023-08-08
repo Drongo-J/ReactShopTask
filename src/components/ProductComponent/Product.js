@@ -39,7 +39,7 @@ const Product = ({ product }) => {
         <div className="product-info">
           <div className="product-name">
             <h1
-              onClick={() => (window.location.href = "https://aykhan.net")}
+              onClick={() => window.open("https://aykhan.net", "_blank")}
               style={{ cursor: "pointer" }}
             >
               aykhan.net
