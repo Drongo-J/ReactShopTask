@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Drongo-J/ReactShopTask/static/css/main.f57313a4.css",
-    "main.js": "/Drongo-J/ReactShopTask/static/js/main.23236bc8.js",
-    "static/js/787.b3ca4345.chunk.js": "/Drongo-J/ReactShopTask/static/js/787.b3ca4345.chunk.js",
-    "static/media/React - Task.ZIP": "/Drongo-J/ReactShopTask/static/media/React - Task.97d878f66d41b9baadfb.ZIP",
-    "index.html": "/Drongo-J/ReactShopTask/index.html",
-    "main.f57313a4.css.map": "/Drongo-J/ReactShopTask/static/css/main.f57313a4.css.map",
-    "main.23236bc8.js.map": "/Drongo-J/ReactShopTask/static/js/main.23236bc8.js.map",
-    "787.b3ca4345.chunk.js.map": "/Drongo-J/ReactShopTask/static/js/787.b3ca4345.chunk.js.map"
+    "main.css": "/ReactShopTask/static/css/main.f57313a4.css",
+    "main.js": "/ReactShopTask/static/js/main.e22d6e24.js",
+    "static/js/787.b3ca4345.chunk.js": "/ReactShopTask/static/js/787.b3ca4345.chunk.js",
+    "static/media/React - Task.ZIP": "/ReactShopTask/static/media/React - Task.97d878f66d41b9baadfb.ZIP",
+    "index.html": "/ReactShopTask/index.html",
+    "main.f57313a4.css.map": "/ReactShopTask/static/css/main.f57313a4.css.map",
+    "main.e22d6e24.js.map": "/ReactShopTask/static/js/main.e22d6e24.js.map",
+    "787.b3ca4345.chunk.js.map": "/ReactShopTask/static/js/787.b3ca4345.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f57313a4.css",
-    "static/js/main.23236bc8.js"
+    "static/js/main.e22d6e24.js"
   ]
 }
