@@ -48,7 +48,7 @@ a {
 
 .my-padding {
   gap: var(--space-05);
-  padding: 0.25em 0.75em;
+  padding: 0.7em 0.75em;
   align-items: center;
   display: inline-flex;
 }

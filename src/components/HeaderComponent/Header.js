@@ -14,12 +14,6 @@ export default function Header() {
           <span className="logo-text">AYKHAN.NET</span>
         </a>
       </div>
-
-      <div className="header-content-right my-padding">
-        <a href={require("../../task/React - Task.ZIP").default} download className="download-button">
-            Download Task
-        </a>
-      </div>
     </header>
   );
 }
